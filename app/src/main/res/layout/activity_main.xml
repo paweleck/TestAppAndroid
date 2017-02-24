@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/edit_message"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_message" />
+     <!--
+     layout_weight="1" proporcjonalnie ile wolnego miejsca ma zajmowac element, wtedy width na 0
+     jak są dwa elementy to może być 1 i 2, wtedy drugi będzie dwa razy szerszy
+     + tylko przy idkach
+     @ pobiera z resource'ów
+     -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send"
+        android:onClick="sendMessage" />
+    <!--
+    sendMessage nazwa metody w activity (public void z obiejktem View jako parametr)
+    -->
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TestAppAndroid</string>
+    <string name="button_send">Wyślij</string>
+    <string name="edit_message">Wpisz tekst</string>
+</resources>

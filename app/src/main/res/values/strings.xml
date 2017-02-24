@@ -1,0 +1,6 @@
+<resources>
+    <!-- dodanie języka, edycja tłumaczeń - PPM na pliku i Open Translation Editor -->
+    <string name="app_name">TestAppAndroid</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+</resources>
