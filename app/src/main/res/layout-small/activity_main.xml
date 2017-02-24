@@ -12,16 +12,16 @@
 
     <EditText
         android:id="@+id/edit_message"
-        android:layout_weight="3"
+        android:layout_weight="1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="@string/edit_message" />
-     <!--
-     layout_weight="1" proporcjonalnie ile wolnego miejsca ma zajmowac element, wtedy width na 0
-     jak są dwa elementy to może być 1 i 2, wtedy drugi będzie dwa razy szerszy
-     + tylko przy idkach
-     @ pobiera z resource'ów
-     -->
+    <!--
+    layout_weight="1" proporcjonalnie ile wolnego miejsca ma zajmowac element, wtedy width na 0
+    jak są dwa elementy to może być 1 i 2, wtedy drugi będzie dwa razy szerszy
+    + tylko przy idkach
+    @ pobiera z resource'ów
+    -->
 
     <Button
         android:layout_width="wrap_content"
