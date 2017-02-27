@@ -4,4 +4,7 @@
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
     <string name="screen_size">Normal</string>
+    <string name="fragment_test">FRAGMENT TEST</string>
+    <string name="headlines_frag">headlines frag</string>
+    <string name="button_replace">Replace Frag</string>
 </resources>
